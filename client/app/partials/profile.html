@@ -1,0 +1,11 @@
+<h1>Profile Page</h1>
+<h3>{{ user.name }}</h3>
+<h4>{{ user.username }}</h4>
+
+<h3>Add Post</h3>
+<form class="newPost">
+  <label>
+    <input type="text" ng-model="post.text" placeholder="Type something here...">
+  </label>
+  <button class="btn btn-accent btn-round" ng-click="addPost(post)">Post</button>
+</form>

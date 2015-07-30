@@ -1,0 +1,27 @@
+<div class="container">
+  <form>
+  <h3>Sign Up</h3>
+    <label>
+      Name
+      <input class="round" type="text" ng-model="newuser.name" >
+    </label>
+    
+    <label>
+      Username
+      <input class="round" type="text" ng-model="newuser.username" >
+    </label>
+    
+    <label>
+      Password
+      <input class="round" type="password" ng-model="newuser.password" >
+    </label>
+    
+    <div class="form-left">
+      <a ui-sref="login">Login</a>
+    </div>
+
+    <div class="form-right">
+      <button class="btn btn-accent btn-round" ng-click="signup(newuser)">Sign Up</button>
+    </div>
+</form>
+</div>

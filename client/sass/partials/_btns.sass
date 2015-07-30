@@ -1,0 +1,43 @@
+#{$all-buttons},
+.btn
+  border: none
+  outline: none
+  background-color: $grey
+  color: #FFFFFF
+  padding: 4px 12px
+  cursor: pointer
+  font-size: 1.2rem
+  font-weight: 300
+  letter-spacing: 1px
+  transition: background-color 0.2s ease-in-out, border-bottom 0.2s ease-in-out
+
+.btn-primary
+  background-color: $blue
+  border-bottom: 2px solid darken($blue, 5%)
+
+  &:hover
+    background-color: darken($blue, 5%)
+    border-bottom: 2px solid darken($blue, 10%)
+
+.btn-danger
+  background-color: $danger
+  border-bottom: 2px solid darken($danger, 5%)
+
+  &:hover
+    background-color: darken($danger, 5%)
+    border-bottom: 2px solid darken($danger, 10%)
+
+.btn-accent
+  background-color: $accent
+  border-bottom: 2px solid darken($accent, 5%)
+
+  &:hover
+    background-color: darken($accent, 5%)
+    border-bottom: 2px solid darken($accent, 10%)
+
+.btn-round
+  border-radius: 4px
+
+.btn-sm
+  padding: 3px 10px
+  font-size: 1rem
